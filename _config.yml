@@ -1,0 +1,13 @@
+source: .
+destination: ./_site
+
+permalink: /:categories/:title
+markdown: rdiscount
+pygments: true
+
+auto: true
+server: true
+server_port: 4000
+baseurl: /
+
+name: Ricky

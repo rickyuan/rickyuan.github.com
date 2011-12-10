@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<meta charset="utf-8" />
+<meta name=viewport content="width=device-width, initial-scale=1.0">
+
+<link rel=stylesheet href=/css/custom.css>
+<link href='http://fonts.googleapis.com/css?family=Galdeano' rel='stylesheet' type='text/css'>
+
+<title>{% if page.title != 'Ricky' %}{{ site.name }} - {% endif %}{{ page.title }}</title>
+
+<header>
+	<h2>Ricky live in Beijing</h2>
+	<p>Product Designer in Beijing. Work to worth a good life. Enjoying movie, music, travel and all kind of good things. </p>
+</header>
+
+<nav>
+	{% if page.title == 'Ricky' %}
+		<h2>Get Started Here</h2>
+	{% else %}
+		<h3>&lt; <a href=/ rel=home accesskey=x>Back to Home</a></h3>
+	{% endif %}
+</nav>
+
+{{ content }}
+
+<footer>
+	<p>This is made by <a href="https://twitter.com/rickyuan">Ricky</a></p>
+</footer>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27640015-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
