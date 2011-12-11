@@ -2,8 +2,8 @@ source: .
 destination: ./_site
 
 permalink: /:categories/:title
-markdown: rdiscount
 pygments: true
+markdown: rdiscount
 
 auto: true
 server: true
