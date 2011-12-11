@@ -5,7 +5,7 @@ permalink: /:categories/:title
 pygments: true
 markdown: rdiscount
 
-auto: true
+auto: fasle
 server: true
 server_port: 4000
 baseurl: /

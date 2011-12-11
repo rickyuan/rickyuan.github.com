@@ -8,25 +8,22 @@
 
 <title>{% if page.title != 'Ricky' %}{{ site.name }} - {% endif %}{{ page.title }}</title>
 
+<div class="container">
 <header>
-	<h2>Ricky live in Beijing</h2>
-	<p>Product Designer in Beijing. Work to worth a good life. Enjoying movie, music, travel and all kind of good things. </p>
+	<h2><a href="/">Ricky live in Beijing</a></h2>
+	<p class="quiet">Product Designer in Beijing. Work to worth a good life. Enjoying movie, music, travel and all kind of good things. </p>
 </header>
 
-<nav>
-	{% if page.title == 'Ricky' %}
-		<h2>Get Started Here</h2>
-	{% else %}
-		<h3>&lt; <a href=/ rel=home accesskey=x>Back to Home</a></h3>
-	{% endif %}
-</nav>
+{% if page.title == 'Ricky' %}
+	<h3>Blog posts</h3>
+{% else %}
+    <h3>{{ page.title }}</h3>
+    <span class="quiet">{{ page.date | date_to_string }}</span>
+{% endif %}
 
 {{ content }}
 
-<footer>
-	<p>This is made by <a href="https://twitter.com/rickyuan">Ricky</a></p>
-</footer>
-
+</div>
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
