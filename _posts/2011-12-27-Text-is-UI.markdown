@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: 文本即界面
 ---
 

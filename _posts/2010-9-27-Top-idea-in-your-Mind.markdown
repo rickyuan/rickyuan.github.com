@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: 脑子里的首要想法
 ---
 
