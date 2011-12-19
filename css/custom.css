@@ -18,6 +18,9 @@ blockquote:before, blockquote:after, q:before, q:after {content:'';}
 blockquote, q {quotes:"" "";}
 a img {border:none;}
 :focus {outline:0;}
+img {
+	width: 750px;
+}
 
 /* typography.css */
 body {font-size:100%;color:#222;background:#fff;font-family:"Helvetica Neue", "Galdeano", Arial, Helvetica, sans-serif;}
