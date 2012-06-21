@@ -162,6 +162,7 @@ a:hover {
 }
 .span9 {
   width: 700px;
+  min-height: 500px;
 }
 .span10 {
   width: 780px;
