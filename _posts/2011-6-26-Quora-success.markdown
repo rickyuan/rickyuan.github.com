@@ -2,7 +2,7 @@
 layout: post
 title: Quora
 ---
-
+<h2>{{ page.title }}</h2>
 ![Quora](http://dl.dropbox.com/u/278227/Screenshots/quora-1.png)
 如果要想成功，永远不要作为跟随者，而是成为引领者。
 

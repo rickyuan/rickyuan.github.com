@@ -2,7 +2,7 @@
 layout: post
 title: 文本即界面
 ---
-
+<h2>{{ page.title }}</h2>
 前段时间看到消息：“Groupon 是年度最佳的新闻媒体，每一期团购的文案都是字字珠玑，深抓消费者的眼球“。现在很多的网络媒体公司也依靠微博这种工具作为自己的营销利器，在140字的限制下，怎么能让你的营销出效果，文案至关重要。
 
 可以看看[NNgroup](http://www.useit.com/alertbox/twitter-iterations.html)在一条推上自己的实践经验：

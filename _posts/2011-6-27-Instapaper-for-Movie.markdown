@@ -2,7 +2,7 @@
 layout: post
 title: 电影版Instapaper
 ---
-
+<h2>{{ page.title }}</h2>
 现在比较期待电影版的Instapaper，需要是GetGlue和Instapaper的结合体。
 
 1. 可以随时保存我在任何网站上看到的电影，加入我的收看列表
