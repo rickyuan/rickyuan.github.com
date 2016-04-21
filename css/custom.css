@@ -23,7 +23,7 @@ img {
 }
 
 /* typography.css */
-body {font-size:100%;color:#222;background:#fff;font-family:"Helvetica Neue", "Galdeano", Arial, Helvetica, sans-serif;}
+body {font-size:100%;color:#222;background:#fff;font-family:"LatoWeb", "Helvetica Neue", "Galdeano", Arial, Helvetica, sans-serif;}
 h1, h2, h3, h4, h5, h6 {font-weight:normal;color:#111;}
 h1 {font-size:3em;line-height:1;margin-bottom:0.5em;}
 h2 {font-size:2em;margin-bottom:0.25em;}
@@ -75,102 +75,115 @@ article {
 }
 .clear {clear:both;}
 
+
 .index {
-	padding: 0;
-	margin: 0;
-}
-
-.leftside {
-	position: absolute;
-	position: fixed!important;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	width: 50%;
-	height: 100%;
-	background: #000;
-	display: table;
+	margin: auto;
 	overflow: hidden;
+	max-width: 700px;
 }
 
-.rightside {
-	position: absolute;
-	position: fixed!important;
-	top: 0;
-	bottom: 0;
-	left: 50%;
-	width: 50%;
-	height: 100%;
-	background: #fff;
-	display: table;
-	overflow: hidden;
+
+.index img {
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 300px;
 }
 
-.homeimg {
-	width: 80%;
-	height: auto;
-	position: relative;
-	top: 0;
-  left: 10%;
-  right: 10%;
-}
-
-@media (max-width: 767px) {
-	.leftside {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 35%;
-		background: #000;
-		display: table;
-		overflow: hidden;
-	}
-	.rightside {
-		position: absolute;
-		top: 35%;
-		left: 0;
-		width: 100%;
-		height: 65%;
-		background: #fff;
-		display: table;
-		overflow: hidden;
-	}
-	.homeimg {
-		width: 80%;
-		height: auto;
-		position: relative;
-		top: -4vh;
-	  left: 10%;
-	  right: 10%;
-	}
-}
-
-.htitle {
-	padding-top: 50px;
-	border-bottom: 1px solid #EFEFF4;
-}
-
-.htitle h1 {
+.index h1 {
+	font-family: "LatoWebHeavy";
 	text-align: center;
+	padding-top: 50px;
+	font-size: 4em;
 }
 
-.htitle h1 a {
+.index h1 a {
 	color: black;
 	text-decoration: none;
 }
 
-.htitle h1 a:hover {
+.index h1 a:hover {
 	color: #1EAAF1;
 }
 
-.htitle span {
+.index .ricky {
+	font-family: "LatoWebThin";
 	display: block;
 	color: #1EAAF1;
 	border: 1px solid #1EAAF1;
 	margin-left: auto;
 	margin-right: auto;
-	width: 100px;
+	width: 120px;
 	text-align: center;
-	padding: 5px;
+	padding: 6px;
+	margin-bottom: 50px;
+	font-size: 1.5em;
+}
+
+.index .line {
+	font-family: "LatoWebThin";
+	display: block;
+	clear: both;
+	border-top: 1px solid #EFEFF4;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	font-size: 2.5rem;
+	color: #808080;
+	text-align: center;
+	font-weight: lighter;
+}
+
+.line a {
+	text-decoration: underline;
+	color: black;
+}
+
+.line a:hover {
+	color: #1EAAF1;
+}
+
+.line .block {
+	display: inline-block;
+	color: #abb4bd;
+	border: 1px solid #efeff4;
+	width: 30%;
+	text-align: center;
+	padding: 4px;
+	margin: 5px 1.5%;
+	float: left;
+	font-size: 0.6em;
+}
+
+.line .block a {
+	text-decoration: none;
+	color: #abb4bd;
+}
+
+.line .block a:hover {
+	color: #1EAAF1;
+}
+
+.footer {
+	font-family: "LatoWebLight"
+	position: relative;;
+	bottom: 20px;
+	text-align: center;
+	color: #abb4bd;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	z-index: 100;
+	margin-top: 100px;
+	font-size: 1.5em;
+}
+
+.footer a {
+	color: #abb4bd;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: #1EAAF1;
 }
