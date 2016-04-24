@@ -10,8 +10,12 @@ locale                   : "en-US"
 title                    : "Ricky.Yuan"
 title_separator          : "-"
 name                     : "Ricky"
-description              : "This is ricky's personal webiste. It tells about tech, design, tools, movies and all kind of good things! Plese fell free to read and share them!"
+description              : "This is ricky's personal webiste. It tells about tech, design, tools, movies and all kind of good things! Plese feel free to read and share them!"
+<<<<<<< Updated upstream
 url                      : # "https://rickyuan.github.io"
+=======
+url                      : "https://rickyuan.github.io"
+>>>>>>> Stashed changes
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -63,13 +67,13 @@ google_ad_slot           :
 author:
   name             : "Ricky"
   avatar           : "bio-photo.png"
-  bio              : "袁泽潭(Ricky.Yuan)，product designer in beijing, love all kind of good things!"
+  bio              : "袁泽潭(Ricky.Yuan), never stop exploring!"
   location         : "Beijing.China"
   email            : "rushyzt@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
-  dribbble         : "rickyuan"
+  dribbble         : "ricky"
   flickr           :
   facebook         :
   foursquare       :
