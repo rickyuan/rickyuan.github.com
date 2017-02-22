@@ -1,0 +1,23 @@
+# Permalinks
+#gem
+gems:                [jekyll-paginate]
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: false
+
+# Setup
+title:               Ricky
+tagline:             'Never stop exploring'
+description:         'This is Ricky. I am a product designer in Beijing. Enjoy movie, music, travel and all kind of good things. You can reach me on twitter <a href="https://twitter.com/rickyuan" target="_blank">@rickyuan</a>.'
+url:                 http://rickyuan.github.io
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:              Ricky Yuan
+  url:               https://twitter.com/rickyuan
+  email:             rushyzt@gmail.com
+
+# Custom vars
+version:             1.0.0
