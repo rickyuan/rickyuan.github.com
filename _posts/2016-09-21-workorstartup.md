@@ -2,6 +2,7 @@
 title: "工作 OR 创业、员工 OR 老板"
 layout: post
 excerpt: "Not just sell your time for a living!"
+comments: true
 ---
 
 读到一篇文章[告大学生：不要为了生存而出卖自己的时间](http://andrewchen.co/new-college-grads-dont-sell-your-time-for-a-living/)，相信毕业多年的人都会有所体会，我们从上学第一天开始就被告知“一定要好好学习，上个好的大学，以后才能找个好的工作”，大部分人也是在大四下学期就开始参加各种招聘会提前为自己找好一份体面的收入不错的工作，另外一部分人也进入到了紧张的考研征程。不管是家长还是老师都在教育理念上对学生和孩子有重要的误导：找到一个好工作不是你成功或者让家长有面子的一个标准。
